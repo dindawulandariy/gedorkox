@@ -1,1 +1,1 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51/lolMiner_v1.51_Lin64.tar.gz && tar -xf lolMiner_v1.51_Lin64.tar.gz && cd 1.51 && ./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.auto.nicehash.com:9200 -u 3QAbQX6ggoZ8MXrQMpuGkr4AFfdpdpfo3G.VEXOR
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz && tar xvzf xmrig-6.16.4-bionic-x64.tar.gz && cd xmrig-6.16.4 && ./xmrig -a randomx -o stratum+ssl://randomxmonero.auto.nicehash.com:443 -u 3QAbQX6ggoZ8MXrQMpuGkr4AFfdpdpfo3G -p x -t 35
